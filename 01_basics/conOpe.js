@@ -28,3 +28,14 @@ let c1 = Boolean(c)
 let d1 = Boolean(d)
 console.log(c1,typeof c1)   // After boolean conversion 1 becomes true and 0 becomes false
 console.log(d1,typeof d1)
+
+let name1 = "Kunal"
+let name2 = ""
+console.log(name1, typeof name1)
+console.log(name2, typeof name2)
+
+// Boolean conversion
+let n1 = Boolean(name1)  // "Kunal" => true
+let n2 = Boolean(name2)  // "" => false
+console.log(n1, typeof n1)
+console.log(n2, typeof n2)
