@@ -55,3 +55,14 @@ user4.email = 'ABCD@gmail.com'
 console.log("user3",user3)
 console.log("user4",user4)
 // So we can still make changes
+
+
+//We can use ... operator which is also called spread operator
+const user6 = { name: "Alice", age: 25, address: { city: "Wonderland" } };
+const user7 = { ...user6 };
+
+user7.name = "Bob";
+user7.address.city = "Bobland";
+
+console.log(user6); // { name: "Alice", age: 25, address: { city: "Bobland" } }
+console.log(user7); // { name: "Bob", age: 25, address: { city: "Bobland" } }
