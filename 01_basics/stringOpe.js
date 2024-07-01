@@ -51,3 +51,12 @@ first increment then assign value to e
  ++d  or d++
  e = d
 */
+let x1 = 3;
+const y1 = ++x;
+console.log(x1 , y1)
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+console.log(x2,y2)
+// x2 is 4n; y2 is 4n
