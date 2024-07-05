@@ -87,5 +87,5 @@ console.log("a8:",a8)
 
 // We can make array using Array.from()  form the give argument  
 console.log(Array.from("Kunal"))
-console.log(Array.of(a1,a2,a3))
+console.log(Array.of(a1,a2,a3))    // Array.of() returns the ele in array acc to the agruments pass to the functions
 console.log(Array.of(a1,a2,a3).flat(Infinity))
