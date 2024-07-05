@@ -2,7 +2,7 @@ let a1 = "Kunal"
 //console.log("a",a1, typeof a1)
 //console.log("a[3] = ",a1[3], ",type: ",typeof a1)
 
-let a2 = new String("Kunal12345")
+let a2 = String("Kunal12345")
 console.log(`a2 : ${a2} , type ${typeof a2}`)
 
 //------------------string methods/ functions--------------
