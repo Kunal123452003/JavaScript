@@ -119,7 +119,18 @@
 // //How to check whether a property/data member is present in the Object or not
 //console.log(`Is City is present in the obj2: ${obj2.hasOwnProperty("city")}`)
 
+// //Different way of accessing obj9 elemenets
+// const obj9 = {
+//   name : "Kunal",
+//   age: 21,
+//   city: "Jahangir puri"
+// }
+// // Normal way :  
+// console.log(obj9.name)
 
+// // Different and mostly used way
+// const {name : N} = obj9
+// console.log(N)
 // JSON file format which is widely used in API
 /*
 {
