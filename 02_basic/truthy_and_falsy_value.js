@@ -28,3 +28,13 @@ if(num.length == 0 ) console.log("Array is empty")
 
 let obj1 = {}
 if (Object.keys(obj1)==0) console.log("obj1 is empty as it don't have any keys")
+
+// Nullish Coalescing Operator (??): null undefined
+let val1;
+val1 = undefined ?? 10
+console.log(val1)  
+let val2;
+val2 = null ?? 0 ?? 12
+console.log(val2)
+// this is different val3 = 10>2 ? 3 : -1
+// console.log(val3)
